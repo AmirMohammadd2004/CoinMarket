@@ -1,0 +1,872 @@
+[
+  {
+    "currencyName": "BTC",
+    "info": {
+      "desc": "بیت‌کوین اولین ارز دیجیتال غیرمتمرکز است که در سال ۲۰۰۹ توسط فرد یا گروهی با نام مستعار ساتوشی ناکاموتو ایجاد شد. این ارز دیجیتال به عنوان طلای دیجیتال شناخته می‌شود و هدف آن ارائه یک سیستم پرداخت الکترونیکی همتا به همتا بدون نیاز به واسطه‌ها است.",
+      "web": "https://bitcoin.org",
+      "twt": "https://twitter.com/Bitcoin",
+      "reddit": "https://www.reddit.com/r/Bitcoin/",
+      "forum": "https://bitcointalk.org/",
+      "github": "https://github.com/bitcoin/bitcoin"
+    }
+  },
+  {
+    "currencyName": "ETH",
+    "info": {
+      "desc": "اتریوم یک پلتفرم بلاک‌چین متن‌باز است که امکان ایجاد و اجرای قراردادهای هوشمند و برنامه‌های غیرمتمرکز را فراهم می‌کند. این پلتفرم در سال ۲۰۱۵ توسط ویتالیک بوترین معرفی شد و ارز دیجیتال بومی آن اتر (ETH) نام دارد.",
+      "web": "https://ethereum.org",
+      "twt": "https://twitter.com/ethereum",
+      "reddit": "https://www.reddit.com/r/ethereum/",
+      "forum": "https://forum.ethereum.org/",
+      "github": "https://github.com/ethereum/go-ethereum"
+    }
+  },
+  {
+    "currencyName": "BNB",
+    "info": {
+      "desc": "بایننس کوین ارز دیجیتال بومی صرافی بایننس است که در ابتدا برای کاهش کارمزدهای معاملات در این صرافی ایجاد شد. با گذشت زمان، کاربردهای BNB گسترش یافت و اکنون در پرداخت‌های مختلف و حتی در زنجیره هوشمند بایننس (BSC) استفاده می‌شود.",
+      "web": "https://www.binance.com",
+      "twt": "https://twitter.com/binance",
+      "reddit": "https://www.reddit.com/r/binance/",
+      "forum": "https://community.binance.org/",
+      "github": "https://github.com/binance-chain"
+    }
+  },
+  {
+    "currencyName": "XRP",
+    "info": {
+      "desc": "ریپل یک سیستم پرداخت دیجیتال و شبکه تبادل ارز است که توسط شرکت Ripple Labs توسعه یافته است. ارز دیجیتال بومی این شبکه XRP نام دارد و هدف آن تسهیل تراکنش‌های بین‌المللی با کارمزد پایین و سرعت بالا است.",
+      "web": "https://ripple.com",
+      "twt": "https://twitter.com/Ripple",
+      "reddit": "https://www.reddit.com/r/Ripple/",
+      "forum": "https://xrpl.org/",
+      "github": "https://github.com/ripple/rippled"
+    }
+  },
+  {
+    "currencyName": "ADA",
+    "info": {
+      "desc": "کاردانو یک پلتفرم بلاک‌چین است که با رویکرد علمی و پژوهشی توسعه یافته است. ارز دیجیتال بومی آن آدا (ADA) نام دارد و هدف آن ارائه یک پلتفرم امن و مقیاس‌پذیر برای اجرای قراردادهای هوشمند و برنامه‌های غیرمتمرکز است.",
+      "web": "https://www.cardano.org",
+      "twt": "https://twitter.com/Cardano",
+      "reddit": "https://www.reddit.com/r/cardano/",
+      "forum": "https://forum.cardano.org/",
+      "github": "https://github.com/input-output-hk/cardano-node"
+    }
+  },
+  {
+    "currencyName": "SOL",
+    "info": {
+      "desc": "سولانا یک پلتفرم بلاک‌چین با کارایی بالا است که برای میزبانی برنامه‌های غیرمتمرکز و مقیاس‌پذیر طراحی شده است. این شبکه توانایی پردازش هزاران تراکنش در ثانیه را دارد و ارز دیجیتال بومی آن سول (SOL) نام دارد.",
+      "web": "https://solana.com",
+      "twt": "https://twitter.com/solana",
+      "reddit": "https://www.reddit.com/r/solana/",
+      "forum": "https://forums.solana.com/",
+      "github": "https://github.com/solana-labs/solana"
+    }
+  },
+  {
+    "currencyName": "DOT",
+    "info": {
+      "desc": "پولکادات یک پروتکل چند زنجیره‌ای است که امکان تبادل داده و دارایی بین بلاک‌چین‌های مختلف را فراهم می‌کند. هدف آن ایجاد یک وب غیرمتمرکز و متصل کردن بلاک‌چین‌های مختلف به یکدیگر است. ارز دیجیتال بومی آن دات (DOT) نام دارد.",
+      "web": "https://polkadot.network",
+      "twt": "https://twitter.com/Polkadot",
+      "reddit": "https://www.reddit.com/r/polkadot/",
+      "forum": "https://forum.polkadot.network/",
+      "github": "https://github.com/paritytech/polkadot"
+    }
+  },
+  {
+    "currencyName": "DOGE",
+    "info": {
+      "desc": "دوج‌کوین در ابتدا به عنوان یک شوخی اینترنتی ایجاد شد، اما به مرور زمان به یکی از ارزهای دیجیتال محبوب تبدیل شد. این ارز دیجیتال با نماد سگ شیبا اینو شناخته می‌شود و جامعه فعالی از حامیان دارد.",
+      "web": "https://dogecoin.com",
+      "twt": "https://twitter.com/dogecoin",
+      "reddit": "https://www.reddit.com/r/dogecoin/",
+      "forum": "https://dogecoin.com/community/",
+      "github": "https://github.com/dogecoin/dogecoin"
+    }
+  },
+  {
+    "currencyName": "LTC",
+    "info": {
+      "desc": "لایت‌کوین یک ارز دیجیتال همتا به همتا است که در سال ۲۰۱۱ توسط چارلی لی ایجاد شد. این ارز دیجیتال به عنوان نقره دیجیتال شناخته می‌شود و هدف آن ارائه تراکنش‌های سریع‌تر و کارمزدهای کمتر نسبت به بیت‌کوین است.",
+      "web": "https://litecoin.org",
+      "twt": "https://twitter.com/LitecoinProject",
+      "reddit": "https://www.reddit.com/r/litecoin/",
+      "forum": "https://litecointalk.io/",
+      "github": "https://github.com/litecoin-project/litecoin"
+    }
+  },
+  {
+    "currencyName": "MATIC",
+    "info": {
+      "desc": "پالیگان (Polygon) یک راه‌حل مقیاس‌پذیری برای بلاک‌چین اتریوم است که تراکنش‌ها را سریع‌تر و ارزان‌تر می‌کند. این شبکه از زنجیره‌های جانبی (sidechains) استفاده می‌کند و ارز دیجیتال بومی آن ماتیک (MATIC) نام دارد.",
+      "web": "https://polygon.technology",
+      "twt": "https://twitter.com/0xPolygon",
+      "reddit": "https://www.reddit.com/r/0xPolygon/",
+      "forum": "https://forum.polygon.technology/",
+      "github": "https://github.com/maticnetwork"
+    }
+  },
+  {
+    "currencyName": "AVAX",
+    "info": {
+      "desc": "آوالانچ یک پلتفرم بلاک‌چین با هدف افزایش سرعت و مقیاس‌پذیری است. این شبکه امکان ایجاد بلاک‌چین‌های سفارشی را فراهم می‌کند و از اجماع نوآورانه‌ای بهره می‌برد که باعث افزایش سرعت تأیید تراکنش‌ها می‌شود.",
+      "web": "https://avax.network",
+      "twt": "https://twitter.com/avax",
+      "reddit": "https://www.reddit.com/r/avax/",
+      "forum": "https://forum.avax.network/",
+      "github": "https://github.com/ava-labs"
+    }
+  },
+  {
+    "currencyName": "TRX",
+    "info": {
+      "desc": "ترون یک بلاک‌چین غیرمتمرکز با هدف ارائه یک سیستم سرگرمی و اشتراک‌گذاری محتوا است. این شبکه سرعت بالای تراکنش‌ها و کارمزد پایین را ارائه می‌دهد و ارز دیجیتال بومی آن ترونیکس (TRX) نام دارد.",
+      "web": "https://tron.network",
+      "twt": "https://twitter.com/Tronfoundation",
+      "reddit": "https://www.reddit.com/r/Tronix/",
+      "forum": "https://tronsr.org/",
+      "github": "https://github.com/tronprotocol"
+    }
+  },
+  {
+    "currencyName": "UNI",
+    "info": {
+      "desc": "یونی‌سواپ یک صرافی غیرمتمرکز مبتنی بر بلاک‌چین اتریوم است که امکان تبادل توکن‌های ERC-20 را بدون نیاز به واسطه‌ها فراهم می‌کند. ارز دیجیتال بومی این پلتفرم یونی (UNI) نام دارد.",
+      "web": "https://uniswap.org",
+      "twt": "https://twitter.com/Uniswap",
+      "reddit": "https://www.reddit.com/r/Uniswap/",
+      "forum": "https://gov.uniswap.org/",
+      "github": "https://github.com/Uniswap"
+    }
+  },
+  {
+    "currencyName": "LINK",
+    "info": {
+      "desc": "چین‌لینک یک شبکه اوراکل غیرمتمرکز است که داده‌های خارجی را به قراردادهای هوشمند بلاک‌چین متصل می‌کند. این پلتفرم امنیت بالا و قابلیت همکاری بین زنجیره‌ای را فراهم می‌کند و ارز دیجیتال بومی آن لینک (LINK) نام دارد.",
+      "web": "https://chain.link",
+      "twt": "https://twitter.com/chainlink",
+      "reddit": "https://www.reddit.com/r/Chainlink/",
+      "forum": "https://forum.chain.link/",
+      "github": "https://github.com/smartcontractkit"
+    }
+  },
+  {
+    "currencyName": "XLM",
+    "info": {
+      "desc": "استلار یک شبکه پرداخت غیرمتمرکز است که با هدف ارائه تراکنش‌های سریع و کم‌هزینه ایجاد شده است. این پلتفرم برای انتقال دارایی‌های دیجیتال و ارزهای فیات به کار می‌رود و ارز دیجیتال بومی آن لومن (XLM) نام دارد.",
+      "web": "https://www.stellar.org",
+      "twt": "https://twitter.com/StellarOrg",
+      "reddit": "https://www.reddit.com/r/Stellar/",
+      "forum": "https://galactictalk.org/",
+      "github": "https://github.com/stellar"
+    }
+  },
+  {
+    "currencyName": "ATOM",
+    "info": {
+      "desc": "کازماس یک اکوسیستم بلاک‌چین‌های متصل به هم است که هدف آن افزایش قابلیت همکاری بین شبکه‌های بلاک‌چین مختلف است. ارز دیجیتال بومی آن اتم (ATOM) نام دارد و برای تأمین امنیت شبکه و پرداخت هزینه‌های تراکنش استفاده می‌شود.",
+      "web": "https://cosmos.network",
+      "twt": "https://twitter.com/cosmos",
+      "reddit": "https://www.reddit.com/r/cosmosnetwork/",
+      "forum": "https://forum.cosmos.network/",
+      "github": "https://github.com/cosmos"
+    }
+  },
+  {
+    "currencyName": "ALGO",
+    "info": {
+      "desc": "الگوراند یک بلاک‌چین مقیاس‌پذیر و امن است که برای پشتیبانی از برنامه‌های غیرمتمرکز و پرداخت‌های سریع و کم‌هزینه طراحی شده است. این شبکه از الگوریتم اجماع اثبات سهام خالص (PPoS) استفاده می‌کند.",
+      "web": "https://www.algorand.com",
+      "twt": "https://twitter.com/Algorand",
+      "reddit": "https://www.reddit.com/r/algorand/",
+      "forum": "https://community.algorand.org/",
+      "github": "https://github.com/algorand"
+    }
+  },
+  {
+    "currencyName": "FIL",
+    "info": {
+      "desc": "فایل‌کوین یک سیستم ذخیره‌سازی غیرمتمرکز است که به کاربران امکان اجاره فضای ذخیره‌سازی در شبکه را می‌دهد. این شبکه به‌عنوان یک بازار داده غیرمتمرکز عمل می‌کند و ارز دیجیتال بومی آن فایل (FIL) نام دارد.",
+      "web": "https://filecoin.io",
+      "twt": "https://twitter.com/Filecoin",
+      "reddit": "https://www.reddit.com/r/filecoin/",
+      "forum": "https://discuss.filecoin.io/",
+      "github": "https://github.com/filecoin-project"
+    }
+  },
+  {
+    "currencyName": "ICP",
+    "info": {
+      "desc": "اینترنت کامپیوتر (ICP) یک بلاک‌چین مقیاس‌پذیر است که هدف آن ایجاد یک اینترنت غیرمتمرکز و مستقل از شرکت‌های بزرگ فناوری است. این شبکه امکان اجرای برنامه‌های غیرمتمرکز با سرعت بالا را فراهم می‌کند.",
+      "web": "https://dfinity.org",
+      "twt": "https://twitter.com/dfinity",
+      "reddit": "https://www.reddit.com/r/dfinity/",
+      "forum": "https://forum.dfinity.org/",
+      "github": "https://github.com/dfinity"
+    }
+  },
+  {
+    "currencyName": "NEAR",
+    "info": {
+      "desc": "نیر پروتکل یک بلاک‌چین مقیاس‌پذیر و کاربرپسند است که برای اجرای برنامه‌های غیرمتمرکز طراحی شده است. این شبکه از فناوری شاردینگ برای افزایش مقیاس‌پذیری استفاده می‌کند.",
+      "web": "https://near.org",
+      "twt": "https://twitter.com/nearprotocol",
+      "reddit": "https://www.reddit.com/r/nearprotocol/",
+      "forum": "https://gov.near.org/",
+      "github": "https://github.com/near"
+    }
+  },
+  {
+    "currencyName": "FTM",
+    "info": {
+      "desc": "فانتوم یک پلتفرم بلاک‌چین با تمرکز بر سرعت و امنیت است که از الگوریتم اجماع Lachesis برای پردازش سریع تراکنش‌ها استفاده می‌کند. ارز دیجیتال بومی آن FTM است.",
+      "web": "https://fantom.foundation",
+      "twt": "https://twitter.com/FantomFDN",
+      "reddit": "https://www.reddit.com/r/FantomFoundation/",
+      "forum": "https://forum.fantom.network/",
+      "github": "https://github.com/Fantom-Foundation"
+    }
+  },
+  {
+    "currencyName": "GRT",
+    "info": {
+      "desc": "گراف یک پروتکل ایندکس‌گذاری برای جستجوی داده‌ها در بلاک‌چین است. این شبکه به توسعه‌دهندگان اجازه می‌دهد تا اطلاعات مربوط به قراردادهای هوشمند را به راحتی جستجو کنند.",
+      "web": "https://thegraph.com",
+      "twt": "https://twitter.com/graphprotocol",
+      "reddit": "https://www.reddit.com/r/thegraph/",
+      "forum": "https://forum.thegraph.com/",
+      "github": "https://github.com/graphprotocol"
+    }
+  },
+  {
+    "currencyName": "AAVE",
+    "info": {
+      "desc": "آوه یک پروتکل غیرمتمرکز وام‌دهی و وام‌گیری در بلاک‌چین اتریوم است که کاربران می‌توانند بدون نیاز به واسطه‌ها دارایی‌های دیجیتال را قرض دهند یا بگیرند.",
+      "web": "https://aave.com",
+      "twt": "https://twitter.com/AaveAave",
+      "reddit": "https://www.reddit.com/r/Aave_Official/",
+      "forum": "https://governance.aave.com/",
+      "github": "https://github.com/aave"
+    }
+  },
+  {
+    "currencyName": "SAND",
+    "info": {
+      "desc": "سندباکس یک دنیای مجازی غیرمتمرکز است که در آن کاربران می‌توانند دارایی‌های دیجیتال را ایجاد، خرید و فروش کنند. این پروژه از فناوری بلاک‌چین برای مالکیت دیجیتال استفاده می‌کند.",
+      "web": "https://www.sandbox.game",
+      "twt": "https://twitter.com/TheSandboxGame",
+      "reddit": "https://www.reddit.com/r/TheSandboxGame/",
+      "forum": "https://forum.sandbox.game/",
+      "github": "https://github.com/thesandboxgame"
+    }
+  },
+  {
+    "currencyName": "MANA",
+    "info": {
+      "desc": "دیسنترالند یک دنیای مجازی مبتنی بر بلاک‌چین است که کاربران می‌توانند در آن زمین‌های دیجیتال خریداری کنند و تجربه‌های سه‌بعدی ایجاد کنند.",
+      "web": "https://decentraland.org",
+      "twt": "https://twitter.com/decentraland",
+      "reddit": "https://www.reddit.com/r/decentraland/",
+      "forum": "https://forum.decentraland.org/",
+      "github": "https://github.com/decentraland"
+    }
+  },
+  {
+    "currencyName": "AXS",
+    "info": {
+      "desc": "اکسی اینفینیتی یک بازی مبتنی بر بلاک‌چین است که در آن بازیکنان می‌توانند شخصیت‌های دیجیتال به نام اکسی را پرورش داده و در نبردها شرکت کنند.",
+      "web": "https://axieinfinity.com",
+      "twt": "https://twitter.com/AxieInfinity",
+      "reddit": "https://www.reddit.com/r/AxieInfinity/",
+      "forum": "https://forum.axieinfinity.com/",
+      "github": "https://github.com/axieinfinity"
+    }
+  },
+  {
+    "currencyName": "RUNE",
+    "info": {
+      "desc": "تورچین یک پروتکل غیرمتمرکز برای تبادل دارایی‌های دیجیتال بین بلاک‌چین‌های مختلف بدون نیاز به واسطه‌های متمرکز است.",
+      "web": "https://thorchain.org",
+      "twt": "https://twitter.com/thorchain_org",
+      "reddit": "https://www.reddit.com/r/THORChain/",
+      "forum": "https://forum.thorchain.org/",
+      "github": "https://github.com/thorchain"
+    }
+  },
+  {
+    "currencyName": "CRV",
+    "info": {
+      "desc": "کرو فایننس یک صرافی غیرمتمرکز متمرکز بر استیبل‌کوین‌ها است که امکان مبادله کارآمد و کم‌هزینه ارزهای دیجیتال را فراهم می‌کند.",
+      "web": "https://curve.fi",
+      "twt": "https://twitter.com/CurveFinance",
+      "reddit": "https://www.reddit.com/r/CurveFi/",
+      "forum": "https://gov.curve.fi/",
+      "github": "https://github.com/curvefi"
+    }
+  },
+  {
+    "currencyName": "KSM",
+    "info": {
+      "desc": "کوساما یک بلاک‌چین آزمایشی برای پولکادات است که به توسعه‌دهندگان اجازه می‌دهد برنامه‌های غیرمتمرکز خود را قبل از راه‌اندازی نهایی تست کنند.",
+      "web": "https://kusama.network",
+      "twt": "https://twitter.com/kusamanetwork",
+      "reddit": "https://www.reddit.com/r/Kusama/",
+      "forum": "https://forum.kusama.network/",
+      "github": "https://github.com/kusamanetwork"
+    }
+  },
+  {
+    "currencyName": "PEPE",
+    "info": {
+      "desc": "PEPE یک میم کوین است که بر اساس فرهنگ اینترنتی و جامعه ساخته شده است.",
+      "web": "https://www.pepe.vip",
+      "twt": "https://twitter.com/pepecoineth",
+      "reddit": "https://www.reddit.com/r/pepecoineth/",
+      "forum": "https://community.pepe.vip/",
+      "github": "https://github.com/pepecoin"
+    }
+  },
+  {
+    "currencyName": "ICX",
+    "info": {
+      "desc": "آیکون یک بلاک‌چین غیرمتمرکز است که بر تعامل بین بلاک‌چین‌ها تمرکز دارد.",
+      "web": "https://icon.foundation",
+      "twt": "https://twitter.com/helloiconworld",
+      "reddit": "https://www.reddit.com/r/helloicon/",
+      "forum": "https://forum.icon.community/",
+      "github": "https://github.com/icon-project"
+    }
+  },
+  {
+    "currencyName": "ONT",
+    "info": {
+      "desc": "آنتولوژی یک بلاک‌چین عمومی است که بر هویت دیجیتال و داده‌های غیرمتمرکز تمرکز دارد.",
+      "web": "https://ont.io",
+      "twt": "https://twitter.com/OntologyNetwork",
+      "reddit": "https://www.reddit.com/r/OntologyNetwork/",
+      "forum": "https://community.ont.io/",
+      "github": "https://github.com/ontio"
+    }
+  },
+  {
+    "currencyName": "THETA",
+    "info": {
+      "desc": "تتا یک بلاک‌چین برای پخش ویدیو و محتوای دیجیتال است که با کاهش هزینه‌های تحویل محتوا، کارایی را بهبود می‌بخشد.",
+      "web": "https://www.thetatoken.org",
+      "twt": "https://twitter.com/Theta_Network",
+      "reddit": "https://www.reddit.com/r/theta_network/",
+      "forum": "https://community.thetatoken.org/",
+      "github": "https://github.com/thetatoken"
+    }
+  },
+  {
+    "currencyName": "First Digital USD",
+    "info": {
+      "desc": "First Digital USD یک استیبل‌کوین است که به دلار آمریکا متصل است و هدف آن ارائه یک ارز دیجیتال پایدار و قابل اعتماد برای تراکنش‌های دیجیتال است.",
+      "web": "https://firstdigitalusd.com",
+      "twt": "https://twitter.com/FirstDigitalUSD",
+      "reddit": "https://www.reddit.com/r/FirstDigitalUSD/",
+      "forum": "https://forum.firstdigitalusd.com/",
+      "github": "https://github.com/firstdigitalusd"
+    }
+  },
+  {
+    "currencyName": "USDT",
+    "info": {
+      "desc": "تتر (Tether) یک استیبل‌کوین است که به دلار آمریکا متصل است. هدف تتر ارائه یک ارز دیجیتال پایدار و قابل اعتماد برای تسهیل تراکنش‌های دیجیتال و کاهش نوسانات قیمت است. تتر به عنوان یکی از پرکاربردترین استیبل‌کوین‌ها در بازار ارزهای دیجیتال شناخته می‌شود.",
+      "web": "https://tether.to",
+      "twt": "https://twitter.com/Tether_to",
+      "reddit": "https://www.reddit.com/r/Tether/",
+      "forum": "https://tether.to/en/community/",
+      "github": "https://github.com/tether"
+    }
+  },
+  {
+    "currencyName": "First Digital USD",
+    "info": {
+      "desc": "First Digital USD یک استیبل‌کوین است که به دلار آمریکا متصل است و هدف آن ارائه یک ارز دیجیتال پایدار و قابل اعتماد برای تراکنش‌های دیجیتال است.",
+      "web": "https://firstdigitalusd.com",
+      "twt": "https://twitter.com/FirstDigitalUSD",
+      "reddit": "https://www.reddit.com/r/FirstDigitalUSD/",
+      "forum": "https://forum.firstdigitalusd.com/",
+      "github": "https://github.com/firstdigitalusd"
+    }
+  },
+  {
+    "currencyName": "USD Coin",
+    "info": {
+      "desc": "USD Coin (USDC) یک استیبل‌کوین است که به دلار آمریکا متصل است و توسط شرکت Circle و Coinbase ایجاد شده است. این ارز دیجیتال برای تسهیل تراکنش‌های دیجیتال و کاهش نوسانات قیمت طراحی شده است.",
+      "web": "https://www.centre.io/usdc",
+      "twt": "https://twitter.com/centre_io",
+      "reddit": "https://www.reddit.com/r/usdc/",
+      "forum": "https://community.centre.io/",
+      "github": "https://github.com/centre"
+    }
+  },
+  {
+    "currencyName": "SHIB",
+    "info": {
+      "desc": "شیبا اینو یک میم کوین است که به عنوان رقیب دوج‌کوین شناخته می‌شود و جامعه فعالی دارد.",
+      "web": "https://shibatoken.com",
+      "twt": "https://twitter.com/Shibtoken",
+      "reddit": "https://www.reddit.com/r/shibatoken/",
+      "forum": "https://forum.shibatoken.com/",
+      "github": "https://github.com/shibatoken"
+    }
+  },
+  {
+    "currencyName": "HBAR",
+    "info": {
+      "desc": "هدررا یک پلتفرم بلاک‌چین با مقیاس‌پذیری بالا است که برای برنامه‌های غیرمتمرکز و قراردادهای هوشمند طراحی شده است.",
+      "web": "https://www.hedera.com",
+      "twt": "https://twitter.com/hedera",
+      "reddit": "https://www.reddit.com/r/Hedera/",
+      "forum": "https://forum.hedera.com/",
+      "github": "https://github.com/hashgraph"
+    }
+  },
+  {
+    "currencyName": "WAVES",
+    "info": {
+      "desc": "ویوز یک پلتفرم بلاک‌چین است که به کاربران امکان ایجاد و مدیریت توکن‌های خود را می‌دهد.",
+      "web": "https://waves.tech",
+      "twt": "https://twitter.com/wavesplatform",
+      "reddit": "https://www.reddit.com/r/wavesplatform/",
+      "forum": "https://forum.waves.tech/",
+      "github": "https://github.com/wavesplatform"
+    }
+  },
+  {
+    "currencyName": "ZRX",
+    "info": {
+      "desc": "زروکس یک پروتکل غیرمتمرکز برای تبادل توکن‌های ERC-20 است که به کاربران امکان می‌دهد بدون نیاز به واسطه‌ها، دارایی‌های دیجیتال را مبادله کنند.",
+      "web": "https://0x.org",
+      "twt": "https://twitter.com/0xProject",
+      "reddit": "https://www.reddit.com/r/0xProject/",
+      "forum": "https://forum.0x.org/",
+      "github": "https://github.com/0xProject"
+    }
+  },
+  {
+    "currencyName": "BAT",
+    "info": {
+      "desc": "بیت‌کوین (Basic Attention Token) یک توکن است که برای پاداش دادن به کاربران در ازای توجه به تبلیغات آنلاین طراحی شده است.",
+      "web": "https://basicattentiontoken.org",
+      "twt": "https://twitter.com/AttentionToken",
+      "reddit": "https://www.reddit.com/r/BATProject/",
+      "forum": "https://community.brave.com/c/bat/",
+      "github": "https://github.com/brave-intl"
+    }
+  },
+  {
+    "currencyName": "MKR",
+    "info": {
+      "desc": "میکر یک پروتکل وام‌دهی غیرمتمرکز است که به کاربران امکان می‌دهد با استفاده از دارایی‌های خود، استیبل‌کوین DAI را ایجاد کنند.",
+      "web": "https://makerdao.com",
+      "twt": "https://twitter.com/MakerDAO",
+      "reddit": "https://www.reddit.com/r/MakerDAO/",
+      "forum": "https://forum.makerdao.com/",
+      "github": "https://github.com/makerdao"
+    }
+  },
+  {
+    "currencyName": "SUSHI",
+    "info": {
+      "desc": "سوشی‌سواپ یک صرافی غیرمتمرکز است که به کاربران امکان می‌دهد توکن‌های ERC-20 را مبادله کنند و در آن به تأمین نقدینگی بپردازند.",
+      "web": "https://sushi.com",
+      "twt": "https://twitter.com/SushiSwap",
+      "reddit": "https://www.reddit.com/r/sushiswap/",
+      "forum": "https://forum.sushi.com/",
+      "github": "https://github.com/sushi"
+    }
+  },
+  {
+    "currencyName": "LDO",
+    "info": {
+      "desc": "لیدو یک پروتکل استیکینگ غیرمتمرکز است که به کاربران امکان می‌دهد با استیک کردن اتریوم، توکن‌های stETH دریافت کنند.",
+      "web": "https://lido.fi",
+      "twt": "https://twitter.com/lidoFinance",
+      "reddit": "https://www.reddit.com/r/lidoFinance/",
+      "forum": "https://forum.lido.fi/",
+      "github": "https://github.com/lidofinance"
+    }
+  },
+  {
+    "currencyName": "RAY",
+    "info": {
+      "desc": "رادیوس یک پروتکل غیرمتمرکز برای تأمین نقدینگی و تبادل توکن‌ها در بلاک‌چین سولانا است.",
+      "web": "https://raydium.io",
+      "twt": "https://twitter.com/RaydiumProtocol",
+      "reddit": "https://www.reddit.com/r/Raydium/",
+      "forum": "https://forum.raydium.io/",
+      "github": "https://github.com/raydium-io"
+    }
+  },
+  {
+    "currencyName": "KAVA",
+    "info": {
+      "desc": "کاوا یک پلتفرم وام‌دهی غیرمتمرکز است که به کاربران امکان می‌دهد با استفاده از دارایی‌های خود، وام بگیرند و وام دهند.",
+      "web": "https://kava.io",
+      "twt": "https://twitter.com/kava_labs",
+      "reddit": "https://www.reddit.com/r/Kava_Labs/",
+      "forum": "https://forum.kava.io/",
+      "github": "https://github.com/Kava-Labs"
+    }
+  },
+  {
+    "currencyName": "CRO",
+    "info": {
+      "desc": "کریپتو دات کام یک پلتفرم مالی است که به کاربران امکان می‌دهد ارزهای دیجیتال را خرید و فروش کنند و از خدمات مالی مختلف استفاده کنند.",
+      "web": "https://crypto.com",
+      "twt": "https://twitter.com/cryptocom",
+      "reddit": "https://www.reddit.com/r/Crypto_com/",
+      "forum": "https://forum.crypto.com/",
+      "github": "https://github.com/crypto-com"
+    }
+  },
+  {
+    "currencyName": "XEM",
+    "info": {
+      "desc": "نیم (NEM) یک پلتفرم بلاک‌چین است که به کاربران امکان می‌دهد دارایی‌های دیجیتال را ایجاد و مدیریت کنند.",
+      "web": "https://nem.io",
+      "twt": "https://twitter.com/nemofficial",
+      "reddit": "https://www.reddit.com/r/nem/",
+      "forum": "https://forum.nem.io/",
+      "github": "https://github.com/NemProject"
+    }
+  },
+  {
+    "currencyName": "QTUM",
+    "info": {
+      "desc": "کوتوم یک پلتفرم بلاک‌چین است که به کاربران امکان می‌دهد قراردادهای هوشمند را با استفاده از فناوری بلاک‌چین و بیت‌کوین ایجاد کنند.",
+      "web": "https://qtum.org",
+      "twt": "https://twitter.com/qtumofficial",
+      "reddit": "https://www.reddit.com/r/Qtum/",
+      "forum": "https://forum.qtum.org/",
+      "github": "https://github.com/qtumproject"
+    }
+  },
+  {
+    "currencyName": "NANO",
+    "info": {
+      "desc": "نانو یک ارز دیجیتال است که به کاربران امکان می‌دهد تراکنش‌های سریع و بدون کارمزد انجام دهند.",
+      "web": "https://nano.org",
+      "twt": "https://twitter.com/nanocurrency",
+      "reddit": "https://www.reddit.com/r/nanocurrency/",
+      "forum": "https://community.nano.org/",
+      "github": "https://github.com/nanocurrency"
+    }
+  },
+  {
+    "currencyName": "STMX",
+    "info": {
+      "desc": "استریم ایکس یک پلتفرم بلاک‌چین است که به کاربران امکان می‌دهد محتوای دیجیتال را به اشتراک بگذارند و پاداش بگیرند.",
+      "web": "https://streamix.com",
+      "twt": "https://twitter.com/streamix",
+      "reddit": "https://www.reddit.com/r/streamix/",
+      "forum": "https://forum.streamix.com/",
+      "github": "https://github.com/streamix"
+    }
+  },
+  {
+    "currencyName": "FET",
+    "info": {
+      "desc": "فچ یک پلتفرم بلاک‌چین است که به کاربران امکان می‌دهد مدل‌های هوش مصنوعی را به صورت غیرمتمرکز ایجاد و مدیریت کنند.",
+      "web": "https://fetch.ai",
+      "twt": "https://twitter.com/fetch_ai",
+      "reddit": "https://www.reddit.com/r/fetchai/",
+      "forum": "https://forum.fetch.ai/",
+      "github": "https://github.com/fetchai"
+    }
+  },
+  {
+    "currencyName": "CVC",
+    "info": {
+      "desc": "سیویک یک پلتفرم بلاک‌چین است که به کاربران امکان می‌دهد هویت دیجیتال خود را مدیریت کنند.",
+      "web": "https://civic.com",
+      "twt": "https://twitter.com/civickey",
+      "reddit": "https://www.reddit.com/r/civicplatform/",
+      "forum": "https://community.civic.com/",
+      "github": "https://github.com/civicteam"
+    }
+  },
+  {
+    "currencyName": "COTI",
+    "info": {
+      "desc": "کوتی یک پلتفرم بلاک‌چین است که به کاربران امکان می‌دهد پرداخت‌های دیجیتال را به صورت سریع و امن انجام دهند.",
+      "web": "https://coti.io",
+      "twt": "https://twitter.com/cotino",
+      "reddit": "https://www.reddit.com/r/COTInetwork/",
+      "forum": "https://forum.coti.io/",
+      "github": "https://github.com/coti"
+    }
+  },
+  {
+    "currencyName": "CSPR",
+    "info": {
+      "desc": "کاسپر یک پلتفرم بلاک‌چین است که به کاربران امکان می‌دهد قراردادهای هوشمند را با استفاده از زبان‌های برنامه‌نویسی مختلف ایجاد کنند.",
+      "web": "https://casper.network",
+      "twt": "https://twitter.com/caspernetwork",
+      "reddit": "https://www.reddit.com/r/caspernetwork/",
+      "forum": "https://forum.casper.network/",
+      "github": "https://github.com/casper-network"
+    }
+  },
+  {
+    "currencyName": "Celo",
+    "info": {
+      "desc": "سلو یک پلتفرم بلاک‌چین است که به کاربران امکان می‌دهد با استفاده از شماره تلفن خود، ارزهای دیجیتال را ارسال و دریافت کنند.",
+      "web": "https://celo.org",
+      "twt": "https://twitter.com/celo_org",
+      "reddit": "https://www.reddit.com/r/celo/",
+      "forum": "https://community.celo.org/",
+      "github": "https://github.com/celo-org"
+    }
+  },
+  {
+    "currencyName": "PancakeSwap",
+    "info": {
+      "desc": "PancakeSwap یک صرافی غیرمتمرکز (DEX) است که بر روی بلاک‌چین بایننس اسمارت چین (BSC) فعالیت می‌کند. این پلتفرم به کاربران امکان می‌دهد تا توکن‌های BEP-20 را بدون نیاز به واسطه‌ها مبادله کنند و همچنین به تأمین نقدینگی و کسب پاداش بپردازند.",
+      "web": "https://pancakeswap.finance",
+      "twt": "https://twitter.com/PancakeSwap",
+      "reddit": "https://www.reddit.com/r/PancakeSwap/",
+      "forum": "https://forum.pancakeswap.finance/",
+      "github": "https://github.com/pancakeswap"
+    }
+  },
+  {
+    "currencyName": "SHIB",
+    "info": {
+      "desc": "شیبا اینو یک میم کوین است که به عنوان رقیب دوج‌کوین شناخته می‌شود و جامعه فعالی دارد.",
+      "web": "https://shibatoken.com",
+      "twt": "https://twitter.com/Shibtoken",
+      "reddit": "https://www.reddit.com/r/shibatoken/",
+      "forum": "https://forum.shibatoken.com/",
+      "github": "https://github.com/shibatoken"
+    }
+  },
+  {
+    "currencyName": "HBAR",
+    "info": {
+      "desc": "هدررا یک پلتفرم بلاک‌چین با مقیاس‌پذیری بالا است که برای برنامه‌های غیرمتمرکز و قراردادهای هوشمند طراحی شده است.",
+      "web": "https://www.hedera.com",
+      "twt": "https://twitter.com/hedera",
+      "reddit": "https://www.reddit.com/r/Hedera/",
+      "forum": "https://forum.hedera.com/",
+      "github": "https://github.com/hashgraph"
+    }
+  },
+  {
+    "currencyName": "WAVES",
+    "info": {
+      "desc": "ویوز یک پلتفرم بلاک‌چین است که به کاربران امکان ایجاد و مدیریت توکن‌های خود را می‌دهد.",
+      "web": "https://waves.tech",
+      "twt": "https://twitter.com/wavesplatform",
+      "reddit": "https://www.reddit.com/r/wavesplatform/",
+      "forum": "https://forum.waves.tech/",
+      "github": "https://github.com/wavesplatform"
+    }
+  },
+  {
+    "currencyName": "ZRX",
+    "info": {
+      "desc": "زروکس یک پروتکل غیرمتمرکز برای تبادل توکن‌های ERC-20 است که به کاربران امکان می‌دهد بدون نیاز به واسطه‌ها، دارایی‌های دیجیتال را مبادله کنند.",
+      "web": "https://0x.org",
+      "twt": "https://twitter.com/0xProject",
+      "reddit": "https://www.reddit.com/r/0xProject/",
+      "forum": "https://forum.0x.org/",
+      "github": "https://github.com/0xProject"
+    }
+  },
+  {
+    "currencyName": "BAT",
+    "info": {
+      "desc": "بیت‌کوین (Basic Attention Token) یک توکن است که برای پاداش دادن به کاربران در ازای توجه به تبلیغات آنلاین طراحی شده است.",
+      "web": "https://basicattentiontoken.org",
+      "twt": "https://twitter.com/AttentionToken",
+      "reddit": "https://www.reddit.com/r/BATProject/",
+      "forum": "https://community.brave.com/c/bat/",
+      "github": "https://github.com/brave-intl"
+    }
+  },
+  {
+    "currencyName": "MKR",
+    "info": {
+      "desc": "میکر یک پروتکل وام‌دهی غیرمتمرکز است که به کاربران امکان می‌دهد با استفاده از دارایی‌های خود، استیبل‌کوین DAI را ایجاد کنند.",
+      "web": "https://makerdao.com",
+      "twt": "https://twitter.com/MakerDAO",
+      "reddit": "https://www.reddit.com/r/MakerDAO/",
+      "forum": "https://forum.makerdao.com/",
+      "github": "https://github.com/makerdao"
+    }
+  },
+  {
+    "currencyName": "SUSHI",
+    "info": {
+      "desc": "سوشی‌سواپ یک صرافی غیرمتمرکز است که به کاربران امکان می‌دهد توکن‌های ERC-20 را مبادله کنند و در آن به تأمین نقدینگی بپردازند.",
+      "web": "https://sushi.com",
+      "twt": "https://twitter.com/SushiSwap",
+      "reddit": "https://www.reddit.com/r/sushiswap/",
+      "forum": "https://forum.sushi.com/",
+      "github": "https://github.com/sushi"
+    }
+  },
+  {
+    "currencyName": "LDO",
+    "info": {
+      "desc": "لیدو یک پروتکل استیکینگ غیرمتمرکز است که به کاربران امکان می‌دهد با استیک کردن اتریوم، توکن‌های stETH دریافت کنند.",
+      "web": "https://lido.fi",
+      "twt": "https://twitter.com/lidoFinance",
+      "reddit": "https://www.reddit.com/r/lidoFinance/",
+      "forum": "https://forum.lido.fi/",
+      "github": "https://github.com/lidofinance"
+    }
+  },
+  {
+    "currencyName": "RAY",
+    "info": {
+      "desc": "رادیوس یک پروتکل غیرمتمرکز برای تأمین نقدینگی و تبادل توکن‌ها در بلاک‌چین سولانا است.",
+      "web": "https://raydium.io",
+      "twt": "https://twitter.com/RaydiumProtocol",
+      "reddit": "https://www.reddit.com/r/Raydium/",
+      "forum": "https://forum.raydium.io/",
+      "github": "https://github.com/raydium-io"
+    }
+  },
+  {
+    "currencyName": "KAVA",
+    "info": {
+      "desc": "کاوا یک پلتفرم وام‌دهی غیرمتمرکز است که به کاربران امکان می‌دهد با استفاده از دارایی‌های خود، وام بگیرند و وام دهند.",
+      "web": "https://kava.io",
+      "twt": "https://twitter.com/kava_labs",
+      "reddit": "https://www.reddit.com/r/Kava_Labs/",
+      "forum": "https://forum.kava.io/",
+      "github": "https://github.com/Kava-Labs"
+    }
+  },
+  {
+    "currencyName": "CRO",
+    "info": {
+      "desc": "کریپتو دات کام یک پلتفرم مالی است که به کاربران امکان می‌دهد ارزهای دیجیتال را خرید و فروش کنند و از خدمات مالی مختلف استفاده کنند.",
+      "web": "https://crypto.com",
+      "twt": "https://twitter.com/cryptocom",
+      "reddit": "https://www.reddit.com/r/Crypto_com/",
+      "forum": "https://forum.crypto.com/",
+      "github": "https://github.com/crypto-com"
+    }
+  },
+  {
+    "currencyName": "XEM",
+    "info": {
+      "desc": "نیم (NEM) یک پلتفرم بلاک‌چین است که به کاربران امکان می‌دهد دارایی‌های دیجیتال را ایجاد و مدیریت کنند.",
+      "web": "https://nem.io",
+      "twt": "https://twitter.com/nemofficial",
+      "reddit": "https://www.reddit.com/r/nem/",
+      "forum": "https://forum.nem.io/",
+      "github": "https://github.com/NemProject"
+    }
+  },
+  {
+    "currencyName": "QTUM",
+    "info": {
+      "desc": "کوتوم یک پلتفرم بلاک‌چین است که به کاربران امکان می‌دهد قراردادهای هوشمند را با استفاده از فناوری بلاک‌چین و بیت‌کوین ایجاد کنند.",
+      "web": "https://qtum.org",
+      "twt": "https://twitter.com/qtumofficial",
+      "reddit": "https://www.reddit.com/r/Qtum/",
+      "forum": "https://forum.qtum.org/",
+      "github": "https://github.com/qtumproject"
+    }
+  },
+  {
+    "currencyName": "NANO",
+    "info": {
+      "desc": "نانو یک ارز دیجیتال است که به کاربران امکان می‌دهد تراکنش‌های سریع و بدون کارمزد انجام دهند.",
+      "web": "https://nano.org",
+      "twt": "https://twitter.com/nanocurrency",
+      "reddit": "https://www.reddit.com/r/nanocurrency/",
+      "forum": "https://community.nano.org/",
+      "github": "https://github.com/nanocurrency"
+    }
+  },
+  {
+    "currencyName": "STMX",
+    "info": {
+      "desc": "استریم ایکس یک پلتفرم بلاک‌چین است که به کاربران امکان می‌دهد محتوای دیجیتال را به اشتراک بگذارند و پاداش بگیرند.",
+      "web": "https://streamix.com",
+      "twt": "https://twitter.com/streamix",
+      "reddit": "https://www.reddit.com/r/streamix/",
+      "forum": "https://forum.streamix.com/",
+      "github": "https://github.com/streamix"
+    }
+  },
+  {
+    "currencyName": "FET",
+    "info": {
+      "desc": "فچ یک پلتفرم بلاک‌چین است که به کاربران امکان می‌دهد مدل‌های هوش مصنوعی را به صورت غیرمتمرکز ایجاد و مدیریت کنند.",
+      "web": "https://fetch.ai",
+      "twt": "https://twitter.com/fetch_ai",
+      "reddit": "https://www.reddit.com/r/fetchai/",
+      "forum": "https://forum.fetch.ai/",
+      "github": "https://github.com/fetchai"
+    }
+  },
+  {
+    "currencyName": "CVC",
+    "info": {
+      "desc": "سیویک یک پلتفرم بلاک‌چین است که به کاربران امکان می‌دهد هویت دیجیتال خود را مدیریت کنند.",
+      "web": "https://civic.com",
+      "twt": "https://twitter.com/civickey",
+      "reddit": "https://www.reddit.com/r/civicplatform/",
+      "forum": "https://community.civic.com/",
+      "github": "https://github.com/civicteam"
+    }
+  },
+  {
+    "currencyName": "COTI",
+    "info": {
+      "desc": "کوتی یک پلتفرم بلاک‌چین است که به کاربران امکان می‌دهد پرداخت‌های دیجیتال را به صورت سریع و امن انجام دهند.",
+      "web": "https://coti.io",
+      "twt": "https://twitter.com/cotino",
+      "reddit": "https://www.reddit.com/r/COTInetwork/",
+      "forum": "https://forum.coti.io/",
+      "github": "https://github.com/coti"
+    }
+  },
+  {
+    "currencyName": "CSPR",
+    "info": {
+      "desc": "کاسپر یک پلتفرم بلاک‌چین است که به کاربران امکان می‌دهد قراردادهای هوشمند را با استفاده از زبان‌های برنامه‌نویسی مختلف ایجاد کنند.",
+      "web": "https://casper.network",
+      "twt": "https://twitter.com/caspernetwork",
+      "reddit": "https://www.reddit.com/r/caspernetwork/",
+      "forum": "https://forum.casper.network/",
+      "github": "https://github.com/casper-network"
+    }
+  },
+  {
+    "currencyName": "Celo",
+    "info": {
+      "desc": "سلو یک پلتفرم بلاک‌چین است که به کاربران امکان می‌دهد با استفاده از شماره تلفن خود، ارزهای دیجیتال را ارسال و دریافت کنند.",
+      "web": "https://celo.org",
+      "twt": "https://twitter.com/celo_org",
+      "reddit": "https://www.reddit.com/r/celo/",
+      "forum": "https://community.celo.org/",
+      "github": "https://github.com/celo-org"
+    }
+  },
+  {
+    "currencyName": "PancakeSwap",
+    "info": {
+      "desc": "PancakeSwap یک صرافی غیرمتمرکز (DEX) است که بر روی بلاک‌چین بایننس اسمارت چین (BSC) فعالیت می‌کند. این پلتفرم به کاربران امکان می‌دهد تا توکن‌های BEP-20 را بدون نیاز به واسطه‌ها مبادله کنند و همچنین به تأمین نقدینگی و کسب پاداش بپردازند.",
+      "web": "https://pancakeswap.finance",
+      "twt": "https://twitter.com/PancakeSwap",
+      "reddit": "https://www.reddit.com/r/PancakeSwap/",
+      "forum": "https://forum.pancakeswap.finance/",
+      "github": "https://github.com/pancakeswap"
+    }
+  }
+]
+
