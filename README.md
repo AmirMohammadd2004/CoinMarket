@@ -44,7 +44,16 @@ CoinMarket is an Android application for tracking cryptocurrency data. It provid
    - Uses `SparkView` for price chart with `Chart_Adapter`.
    - Shows statistics and detailed information.
    - Supports clickable links to website, Reddit, Twitter, and GitHub.
-
 ---
+Libraries Used
 
+Retrofit - for API calls
+
+Gson Converter - for JSON parsing
+
+Glide - for image loading
+
+Robinhood Spark - for charts
+
+AndroidX components (RecyclerView, ConstraintLayout, AppCompat, etc.)
 
