@@ -1,59 +1,72 @@
+# 🚀 CoinMarket App
 
-# CoinMarket App
+[![Android](https://img.shields.io/badge/Platform-Android-green)](https://developer.android.com/) 
+[![Kotlin](https://img.shields.io/badge/Language-Kotlin-orange)](https://kotlinlang.org/) 
+[![License](https://img.shields.io/badge/License-MIT-blue)](LICENSE)
 
-CoinMarket is an Android application for tracking cryptocurrency data. It provides live price updates, 24-hour change percentages, market cap, trading volume, price charts, and detailed information about each cryptocurrency.
-
----
-
-## Features
-
-- Display a list of cryptocurrencies with name, price, market cap, and 24-hour change.
-- View interactive price charts with selectable time periods:
-  - 1 hour, 24 hours, 1 week, 1 month, 3 months, 1 year, all-time.
-- View detailed statistics for each cryptocurrency:
-  - Open price, high, low, 24-hour change, algorithm, total volume, supply, market cap.
-- View additional information:
-  - Website, Reddit, Twitter, GitHub, and description.
-- Interactive price charts with color-coded gains/losses.
-- Direct links to official websites and social media.
+CoinMarket is a modern **Android application** for tracking cryptocurrency data in real-time. Stay updated with live prices, market trends, trading volumes, price charts, and detailed coin information — all in one place.
 
 ---
 
-## Screenshots
+## 🌟 Features
 
-![Screenshot 1](path/to/screenshot1.png)
-![Screenshot 2](path/to/screenshot2.png)
+- 📈 **Live Cryptocurrency List**  
+  View name, price, market cap, and 24-hour change for all coins.
+
+- 📊 **Interactive Price Charts**  
+  Select time periods: 1h, 24h, 1w, 1m, 3m, 1y, All-time.  
+  Color-coded gains/losses for easy analysis.
+
+- 💹 **Detailed Coin Statistics**  
+  Includes open price, high/low, 24-hour change, algorithm, total volume, supply, and market cap.
+
+- 🌐 **Additional Coin Info**  
+  Links to official website, Reddit, Twitter, GitHub, and detailed description.
+
+- 🔗 **Direct Links & Navigation**  
+  Open coin websites and social media directly from the app.
 
 ---
 
-## Demo GIF
+## 📸 Screenshots
+
+![Screenshot 1](path/to/screenshot1.png)  
+![Screenshot 2](path/to/screenshot2.png)  
+
+---
+
+## 🎬 Demo GIF
 
 ![Demo GIF](path/to/demo.gif)
 
 ---
 
-## Screens
+## 🖥 Screens Overview
 
-1. **MarketActivity**  
-   - Displays a list of cryptocurrencies.
-   - Uses `RecyclerView` with `Market_Adapter`.
-   - Shows coin images with Glide.
+### 1. MarketActivity
+- Displays a full list of cryptocurrencies.
+- Uses `RecyclerView` with `Market_Adapter`.
+- Shows coin images using **Glide**.
 
-2. **CoinActivity**  
-   - Displays details of a selected cryptocurrency.
-   - Uses `SparkView` for price chart with `Chart_Adapter`.
-   - Shows statistics and detailed information.
-   - Supports clickable links to website, Reddit, Twitter, and GitHub.
+### 2. CoinActivity
+- Displays detailed info of selected cryptocurrency.
+- Interactive charts using **SparkView** with `Chart_Adapter`.
+- Shows stats and additional links (website, Reddit, Twitter, GitHub).
+
 ---
-Libraries Used
 
-Retrofit - for API calls
+## 🛠 Libraries Used
 
-Gson Converter - for JSON parsing
+- **Retrofit** – For API calls  
+- **Gson Converter** – For JSON parsing  
+- **Glide** – For image loading  
+- **Robinhood Spark** – For interactive charts  
+- **AndroidX Components** – RecyclerView, ConstraintLayout, AppCompat, etc.
 
-Glide - for image loading
+---
 
-Robinhood Spark - for charts
+## ⚡ Installation
 
-AndroidX components (RecyclerView, ConstraintLayout, AppCompat, etc.)
-
+1. Clone the repository:  
+```bash
+git clone https://github.com/<username>/CoinMarket.git
