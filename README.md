@@ -41,20 +41,6 @@ CoinMarket is a modern **Android application** for tracking cryptocurrency data 
 
 ---
 
-## 🖥 Screens Overview
-
-### 1. MarketActivity
-- Displays a full list of cryptocurrencies.
-- Uses `RecyclerView` with `Market_Adapter`.
-- Shows coin images using **Glide**.
-
-### 2. CoinActivity
-- Displays detailed info of selected cryptocurrency.
-- Interactive charts using **SparkView** with `Chart_Adapter`.
-- Shows stats and additional links (website, Reddit, Twitter, GitHub).
-
----
-
 ## 🛠 Libraries Used
 
 - **Retrofit** – For API calls  
@@ -64,9 +50,3 @@ CoinMarket is a modern **Android application** for tracking cryptocurrency data 
 - **AndroidX Components** – RecyclerView, ConstraintLayout, AppCompat, etc.
 
 ---
-
-## ⚡ Installation
-
-1. Clone the repository:  
-```bash
-git clone https://github.com/<username>/CoinMarket.git
