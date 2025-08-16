@@ -29,15 +29,13 @@ CoinMarket is a modern **Android application** for tracking cryptocurrency data 
 ---
 
 ## 📸 Screenshots
+![photo_2025-08-15_23-53-22](https://github.com/user-attachments/assets/0b83281d-b9ce-4222-9ba2-47533d24b96e)
 
-![Screenshot 1](path/to/screenshot1.png)  
-![Screenshot 2](path/to/screenshot2.png)  
+![photo_2025-08-15_23-53-24](https://github.com/user-attachments/assets/1b27f21d-e3ec-4045-94bd-b4cd5985aa57)
 
----
+![photo_2025-08-15_23-53-25](https://github.com/user-attachments/assets/878fa212-443f-4c1a-9cce-1521c4adf3ed)
 
-## 🎬 Demo GIF
-
-![Demo GIF](path/to/demo.gif)
+![photo_2025-08-15_23-53-26](https://github.com/user-attachments/assets/bf348212-ac39-43e7-b222-27b613b442ba)
 
 ---
 
