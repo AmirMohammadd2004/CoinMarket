@@ -27,17 +27,20 @@ CoinMarket is a modern **Android application** for tracking cryptocurrency data 
   Open coin websites and social media directly from the app.
 
 ---
-
 ## 📸 Screenshots
-![photo_2025-08-15_23-53-22](https://github.com/user-attachments/assets/0b83281d-b9ce-4222-9ba2-47533d24b96e)
 
-![photo_2025-08-15_23-53-24](https://github.com/user-attachments/assets/1b27f21d-e3ec-4045-94bd-b4cd5985aa57)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/0b83281d-b9ce-4222-9ba2-47533d24b96e" width="280" alt="Screenshot 1"/>
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://github.com/user-attachments/assets/1b27f21d-e3ec-4045-94bd-b4cd5985aa57" width="280" alt="Screenshot 2"/>
+</p>
 
-![photo_2025-08-15_23-53-25](https://github.com/user-attachments/assets/878fa212-443f-4c1a-9cce-1521c4adf3ed)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/878fa212-443f-4c1a-9cce-1521c4adf3ed" width="280" alt="Screenshot 3"/>
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://github.com/user-attachments/assets/bf348212-ac39-43e7-b222-27b613b442ba" width="280" alt="Screenshot 4"/>
+</p>
 
-![photo_2025-08-15_23-53-26](https://github.com/user-attachments/assets/bf348212-ac39-43e7-b222-27b613b442ba)
-
----
 
 ## 🛠 Libraries Used
 
